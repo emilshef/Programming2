@@ -1,10 +1,11 @@
+package Programming2;
 
 public class BankAccount {
 
-	private String firstName;
-	private String lastName;
-	private int accountID;
-	private double balance;
+	protected String firstName;
+	protected String lastName;
+	protected int accountID;
+	protected double balance;
 	
 	//constructor
 	public BankAccount () {
@@ -58,7 +59,7 @@ public class BankAccount {
 		System.out.println("First name: " + firstName);
 		System.out.println("Last name: " + lastName);
 		System.out.println("Account ID: " + accountID);
-		System.out.println("Balance " + balance);
+		System.out.println("Balance: " + balance);
 			
 	}
 }
